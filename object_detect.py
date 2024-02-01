@@ -4,7 +4,7 @@ import cv2
 # loding model
 model = YOLO('yolov8n.pt')
 
-# read frmaes
+# read frmae
 cap = cv2.VideoCapture(0)
 
 #for infinite loop
